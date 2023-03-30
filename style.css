@@ -1,0 +1,20 @@
+table{
+    width:80%;
+    margin: 0 auto;
+    border-collapse:collapse;
+    border: 2px solid #000;
+    font-size: 16px;
+}
+table thead tr{
+    background: grey;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+
+}
+table tbody tr:nth-child(odd){
+    background-color: #F2F2F2;
+}
+table td{
+    padding: 5px;
+}
